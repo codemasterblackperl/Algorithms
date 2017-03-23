@@ -11,9 +11,11 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            var arr = new int[]{ 2, 1, 3, 1, 2 };
-            ISort sort = new InsertionSort();
-            arr = sort.Sort(arr);
+            var arr = new int[]{ 4,5,3,7,2 };
+            var sort = new QuickSort();
+            var a1=sort.Sort(arr);
+            //int val = sort.Partition(ref arr,0,arr.Length-1,arr[arr.Length-1]);
+
         }
     }
 }
